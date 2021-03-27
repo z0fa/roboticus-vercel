@@ -1,0 +1,19 @@
+{
+  "name": "@z0fa/roboticus-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/z0fa/roboticus-vercel"
+  },
+  "scripts": {
+    "sync": "roboticus sync"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.9.1"
+  },
+  "dependencies": {
+    "@z0fa/roboticus": "github:z0fa/roboticus"
+  }
+}
