@@ -20,6 +20,7 @@ export default async function (req: VercelRequest, res: VercelResponse) {
   }
 
   const interaction = req.body;
+  const response = await resolveCommand(interaction, commands)
 
-  return res.json(resolveCommand(interaction, commands));
+  return res.json(response);
 }
